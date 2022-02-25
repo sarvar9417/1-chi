@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+::placeholder{
+ color: #aaaaaaa4;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.john
+{
+    padding: 15px 0px;
+    
+}
+
+.steklo{
+    background-color: rgba(184, 78, 78, 0.433);
+    width: 100%;
+    height: 100%;
+
+}
+
+.body
+{
+    background-image: url(./../photo/body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    /* position: relative; */
+
+
+}
+
+.bodytext
+{
+padding-top: 40vh;
+
+}
+
+.text1
+{
+    color: white;
+    font-size: 40pt;
+    font-weight: 100;
+    list-style: 2;
+
+
+}
+
+.text1 span {
+    background-color: rgba(255, 255, 255, 0.101);
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.btncha{
+    
+    margin:15px 5px;
+    color: white;
+    font-weight: 100;
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btncha:hover{
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.507);
+    transition: 0.2s;
+}
+
+.birnma
+{
+    background: #dfdfdfb9;
+    width: 100%;
+    height: 60vh;
+    color: rgba(54, 54, 54, 0.904);
+}
+
+.icanhelp{
+    padding: 80px 0;
+    height: 100%;
+}
+
+.help{
+    font-size: 15pt;
+    color: rgba(54, 54, 54, 0.904);
+    width: 30%;
+    float: left;
+
+}
+
+.responsive{
+    width: 58%;
+    float: left;
+   transition: 2s;
+   transition-delay: 0.3s;
+}
+
+.lorem
+{
+    font-weight: 100;
+    font-size: 10pt;
+    margin-bottom: 20px;
+    color: rgba(54, 54, 54, 0.904);
+    letter-spacing: 1px;
+
+}
+
+
+
+.icanhelp:hover .div1 p {
+    width: 95%;
+    transition: 2s;
+
+}
+.icanhelp:hover .div2 p {
+    width: 45%;
+    transition: 4s;
+   transition-delay: 0.3s;
+
+}
+.icanhelp:hover .div3 p {
+    width: 85%;
+    transition: 3s;
+   transition-delay: 1s;
+
+}
+.icanhelp:hover .div4 p {
+    width: 50%;
+    transition: 2s;
+   transition-delay: 0.1s;
+
+}
+
+.clr{
+    clear: both;
+}
+
+.div1, .div2, .div3, .div4
+{
+    background-color: rgb(245, 245, 245);
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.div1 p{
+    background-color:rgba(134, 134, 134, 0.705) ;
+    width: 100%;
+    padding: 8px 20px;
+
+}
+
+.div2 p {
+    background-color:rgba(134, 134, 134, 0.705) ;
+    width: 85%;
+    padding: 8px 20px;
+
+}
+
+.div3 p{
+    background-color:rgba(134, 134, 134, 0.705) ;
+    width: 65%;
+    padding: 8px 20px;
+
+}
+
+
+
+.div4 p {
+    background-color:rgba(134, 134, 134, 0.705) ;
+    width: 30%;
+    padding: 8px 20px;
+}
+
+.my-projects{
+    margin-top:30px  ;
+    padding: 15px 0;
+}
+
+.rov1{
+    width: 100%;
+    height: 40vh;
+}
+
+.col3{
+    height: 100%;
+    width: 25%;
+    float: left;
+    background-image: url(./../photo/5.jpg);
+    position: relative;
+    background-size: cover;
+
+}
+
+.col6{
+    height: 100%;
+    position: relative;
+    width: 50%;
+    float: left;
+    /* background-image: url(./../photo/krasivye-kartinki-nochnogo-neba-14.jpg); */
+    background-size: cover;
+}
+
+/* .col6:hover{
+    transform: scale(1.1);
+    z-index: 20;
+    transition: 1s;
+} */
+
+.clr{
+    clear: both;
+}
+
+.past-yozuv{
+    height: 40px;
+    width: 100%;
+    background: rgba(34, 34, 34, 0.301);
+    position: absolute;
+    bottom: 0;
+}
+
+.tt{
+    color: rgba(240, 240, 240, 0.801);
+    padding: 5px;
+    
+}
+
+.ss{
+    color: rgba(247, 247, 247, 0.61);
+    font-size: 8pt;
+    padding: 0 5px;
+}
+
+.rov2{
+    width: 100%;
+    margin-top: 1px;
+    height: 40vh;
+}
+
+
+
+.lorem1
+{
+    font-weight: 100;
+    font-size: 10pt;
+    margin-top: 30px;
+    color: rgba(54, 54, 54, 0.904);
+    letter-spacing: 1px;
+
+}
+
+.input{
+   margin-left: 80px;
+    color: rgba(194, 194, 194, 0.692);
+    box-shadow: 0 0 80px rgba(161, 161, 161, 0.637);
+}
+
+
+input{
+    border: none;
+    padding: 10px 15px;
+    color: rgba(54, 54, 54, 0.692);
+    font-size: 15pt;
+    width: 100%;
+}
+
+.div11 input{
+    background-color: rgba(235, 235, 235, 0.774);
+}
+
+.div44 input{
+    padding-bottom: 80px;
+  
+}
+
+button{
+    padding: 10px 15px;
+    margin-left: 80px;
+    border: none;
+    background-color: #919191;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 0 5px 5px;
+
+    
+}
+
+button:hover{
+    box-shadow: 3px 3px 8px #555;
+    transition: 0.3s;
+}
+
+.futer{
+    height: 10vh;
+    width: 100%;
+}
+
+.ZiDin{
+    color: rgba(85, 85, 85, 0.61);
+    padding: 25px 2px;
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+.divcha{
+    height: 5vh;
+    width: 100%;
+    background: rgb(206, 206, 206);
+}
+.icon{
+float: right;    
+
+}
+
+.icons div{
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.icons{
+    margin: 15px 20px;
+    padding: 10px ;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 0.8s;
+    
+}
+
+.icons div:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+   transition-duration:0.5s ;
+   filter: drop-shadow(0 0 10px rgba(16, 247, 8, 0.929));
+}
+
+
+
+.clr{
+    clear: both;
+}
